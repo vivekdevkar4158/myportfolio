@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/104928b22e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Quality Analyst</p>
+                <h1>Hi, I'm <span class="name">Vivek</span></h1>
+                <a href="images/My_CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ---------------About--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A competent professional with 1 year of IT experience in Software Testing (Automation & Manual).
+                        Having an experience in Internet Banking and other domains. Good understanding of SDLC, STLC and
+                        Defect life cycle. Well versed with selenium with Python. Knowledge of Agile scrum
+                        methodologies, and scrum ceremonies. Experience in Sanity, Smoke, Functional, Regression, and UI
+                        testing. Experience in Cross browser testing using tools like BrowserStack & Lambda Test,
+                        Website Testing. Understanding and analyzing test requirements. Good knowledge of preparing test
+                        cases and executing test cases. Knowledge of API Testing and Database testing using SQL.
+                        Friendly with JIRA. Knowledge of Web Development Technologies like HTML, CSS, and JS.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Manual & Automation Testing</span></li>
+                            <li><span>SDLC, STLC & Defect life cycle</span></li>
+                            <li><span>Selenium With Python</span></li>
+                            <li><span>Sanity, Smoke, Functional, Regression & UI Testing</span></li>
+                            <li><span>Website Testing</span></li>
+                            <li><span>Cross-Browser Testing using tools like Browser Stack & Lambda test</span></li>
+                            <li><span>Test Case Creation and Execution, Defect Management</span></li>
+                            <li><span>Python, Pytest, Pycharm</span></li>
+                            <li><span>Structured Query Language (SQL)</span></li>
+                            <li><span>Performance Testing (Jmeter), API Testing (Postman)</span></li>
+                            <li><span>Manual & Automation Testing</span></li>
+                            <li><span>Agile methodologies, JIRA</span></li>
+                            <li><span>HTML, CSS, JS</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Digivantage Marketing Solutions Pvt Ltd, Aurangabad</span></li>
+                            <li><span>Designation: </span>Quality Analyst</li>
+                            <li><span>Duration: </span>Aug 2022 - Present</li>
+                            <li><span>Responsibilities: </span>Manual & Automation Testing, System Testing, Functional,
+                                Regression, UI, Cross-Browser Testing, Web Testing, Preparation and execution of Test
+                                Plan and Test Cases, Bug Reporting, writing auomation scripts</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <table>
+                            <tr class="heading">
+                                <td>Course</td>
+                                <td>University</td>
+                                <td>Year</td>
+                                <td>Marks(%)</td>
+                            </tr>
+                            <tr>
+                                <td>BE</td>
+                                <td>BAMU, Aurangabad</td>
+                                <td>2022</td>
+                                <td>75.7</td>
+                            </tr>
+                            <tr>
+                                <td>Diploma</td>
+                                <td>MSBTE</td>
+                                <td>2018</td>
+                                <td>77</td>
+                            </tr>
+                            <tr>
+                                <td>SSC</td>
+                                <td>Maharastra State Board</td>
+                                <td>2015</td>
+                                <td>87.4</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------Projects----------------------------- -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="images/p1.jpg">
+                    <div class="layer">
+                        <h3>Responsibilities</h3>
+                        <p> • Software requirements Analysis. <br>
+                            • Sanity, Smoke, Functional & Regression testing.<br> • Cross-Browser testing. <br>
+                            • Creation & Execution of Test Cases. <br>
+                            • Defect Management Process.
+                            • Reporting the Regular status to the higher authorities in a timely manner.
+                        </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/p2.jpg">
+                    <div class="layer">
+                        <h3>Responsibilities</h3>
+                        <p> Go through the software requirements Analysis and changes from the clients.
+                            • Perform sanity, smoke, functional, and regression testing, Cross Browser testing, etc.
+                            • Creating, enhancing, debugging, and running the test cases.
+                            • Collating and monitoring the defect management process.
+                            • Managing the changes and executing regression tests.
+                            • Reporting the Regular status to the higher authorities in a timely manner.
+                        </p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/p3.jpg">
+                    <div class="layer">
+                        <h3>Responsibilities</h3>
+                        <p> Go through the software requirements Analysis and changes from the clients.
+                            • Perform sanity, smoke, functional, and regression testing, Cross Browser testing, etc.
+                            • Creating, enhancing, debugging, and running the test cases.
+                            • Collating and monitoring the defect management process.
+                            • Managing the changes and executing regression tests.
+                            • Reporting the Regular status to the higher authorities in a timely manner.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- ------------------------------Certifications--------------------------- -->
+    <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="row-1">
+                <div class="image">
+                    <img src="images/foundation.png" alt="Snow" style="width:100%">
+                </div>
+                <div class="image">
+                    <img src="images/play.png" alt="Forest" style="width:100%">
+                </div>
+                <div class="image">
+                    <img src="images/intro.png" alt="Mountains" style="width:100%">
+                </div>
+                <div class="image">
+                    <img src="images/digital.png" alt="Mountains" style="width:100%">
+                </div>
+            </div>
+
+            <div class="popup-image">
+                <span>&times;</span>
+                <img src="images/foundation.png" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ---------------------------------------Contact------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a
+                            href="mailto:vivekdevkar4158@gmail.com">vivekdevkar4158@gmail.com</a></p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i><a href="tel:8605245704">8605245704</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vivek-devkar-761a501a5"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/vivek_devkar_4158?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://twitter.com/Vivek_Devkar__?t=fC8S1NQZJp7EBjITk5V_qw&s=09"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="images/My_CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="thankyou">
+            <p class="animate">Thank You <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+
+    <script>
+
+        document.querySelectorAll('.row-1 img').forEach(image => {
+            image.onclick = () => {
+                document.querySelector('.popup-image').style.display = 'block';
+                document.querySelector('.popup-image img').src = image.getAttribute('src');
+            }
+        });
+
+        document.querySelector('.popup-image span').onclick = () => {
+            document.querySelector('.popup-image').style.display = 'none';
+        }
+
+    </script>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzlA07HvHrVrIen8iz3FFcrST-OeLIv9-2a9WLYH4rJxSXopPkBzIzopBIE67zomnc0Cw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg, innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
